@@ -1,0 +1,45 @@
+header {
+  padding: 0.75rem;
+}
+
+#sub-header {
+  display: flex;
+}
+
+#logo img {
+  width: 2rem;
+}
+
+#logo,
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#logo,
+nav.right {
+  flex: 20%;
+}
+nav.left {
+  flex: 80%;
+}
+
+nav {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+nav ul {
+  column-gap: 3rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  color: var(--color-black);
+}

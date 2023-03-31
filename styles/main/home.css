@@ -10,7 +10,6 @@
 
 .introduction {
   flex-flow: column wrap;
-  font-size: 1.25rem;
   gap: 2rem;
 }
 

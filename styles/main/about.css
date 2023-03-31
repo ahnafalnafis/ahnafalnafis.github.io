@@ -1,0 +1,26 @@
+#about {
+  display: flex;
+}
+
+.about-title-container,
+.profile-photo {
+  flex: 1;
+}
+
+.about-title-container {
+  display: flex;
+}
+
+.about-title {
+  padding-top: 10%;
+  padding-bottom: 5%;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 4rem;
+  font-weight: 500;
+}
+.about-text {
+  max-width: 80%;
+}

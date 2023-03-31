@@ -1,0 +1,35 @@
+#home {
+  display: flex;
+}
+
+.introduction,
+.profile-photo {
+  flex: 1;
+  display: flex;
+}
+
+.introduction {
+  flex-flow: column wrap;
+  font-size: 1.25rem;
+  gap: 2rem;
+}
+
+.intro-text,
+.more-button-container {
+  flex: 1;
+}
+
+.intro-text {
+  display: flex;
+  align-items: flex-end;
+}
+.intro-title {
+  display: block;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.profile-photo {
+  align-items: center;
+  justify-content: center;
+}

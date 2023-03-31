@@ -42,4 +42,8 @@ nav li {
 
 nav a {
   color: var(--color-black);
+  transition: opacity 250ms;
+}
+nav a:hover {
+  opacity: 0.6;
 }

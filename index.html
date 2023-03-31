@@ -4,30 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Search Engine: -->
+    <!-- Search engine: -->
     <meta
       name="keywords"
-      content="Ahnaf, Nafis, ahnaf, nafis, Ahnaf Al Nafis, ahnafalnafis"
+      content="Ahnaf,Nafis,ahnaf,nafis,Ahnaf Al Nafis,ahnafalnafis"
     />
 
     <!-- Style sheets: -->
     <link rel="stylesheet" href="/styles/fonts.css" />
     <link rel="stylesheet" href="/styles/general.css" />
     <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/main/home.css" />
 
     <!-- Information: -->
     <title>Ahnaf Al Nafis</title>
     <meta name="author" content="Ahnaf Al Nafis" />
-    <meta name="designer" content="Ahnaf Al Nafis" />
-    <link rel="shortcut icon" href="/assets/favicon-64x63.png" type="image/x-icon" />
     <meta
       name="description"
       content="Hi, I'm Ahnaf and this is my portfolio website."
     />
+    <link
+      rel="shortcut icon"
+      href="/assets/favicon-64x63.png"
+      type="image/x-icon"
+    />
     <meta name="url" content="https://ahnafalnafis.github.io" />
 
+    <!-- Open graph: -->
     <meta property="og:title" content="Ahnaf Al Nafis" />
     <meta property="og:image" content="/assets/favicon.png" />
+    <meta property="og:image:width" content="300" />
     <meta
       property="og:description"
       content="Hi, I'm Ahnaf and this is my portfolio website."
@@ -35,8 +41,12 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ahnafalnafis.github.io" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@ahnafalnafis" />
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:site:id" content="@ahnafalnafis" />
+    <meta property="twitter:creator:id" content="@ahnafalnafis" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="ahnafalnafis.github.io" />
+    <meta property="twitter:url" content="https://ahnafalnafis.github.io" />
   </head>
 
   <body>
@@ -45,7 +55,7 @@
       <div id="sub-header">
         <!-- Logo: -->
         <div id="logo">
-          <a href="https://ahnafalnafis.github.io">
+          <a href="/">
             <img src="/assets/favicon-64x63-transparent.png" alt="Logo" />
           </a>
         </div>
@@ -65,6 +75,28 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+      </div>
     </header>
+
+    <!-- Main content: -->
+    <main>
+      <section id="home">
+        <div class="introduction">
+          <div class="intro-text">
+            <p>
+              Welcome, I am
+              <span class="intro-title">Ahnaf Al Nafis,</span>
+              a web developer from Bangladesh and I like to create stuff&excl;
+            </p>
+          </div>
+          <div class="more-button-container">
+            <a class="button" href="#about">More&nbsp;&nbsp;&RightArrow;</a>
+          </div>
+        </div>
+        <div class="profile-photo">
+          <img src="/assets/dummy.png" alt="Ahnaf Al Nafis" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>

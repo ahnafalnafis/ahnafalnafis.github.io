@@ -18,3 +18,22 @@ body {
 a {
   text-decoration: none;
 }
+
+main {
+  padding: 0 max(5%, 1rem);
+}
+
+.button {
+  border: 2px solid var(--color-black);
+  border-radius: 0.25rem;
+
+  padding: 0.5rem 1.25rem;
+  font-size: 1.25rem;
+
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+.button:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}

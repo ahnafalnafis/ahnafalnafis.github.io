@@ -9,3 +9,4 @@ Hi, I'm Ahnaf and this is my portfolio website.
 - Add footer.
 - Make open graph to be visible everywhere.
 - Make it responsive.
+- Add animations.

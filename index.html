@@ -29,6 +29,7 @@
       type="image/x-icon"
     />
     <meta name="url" content="https://ahnafalnafis.github.io" />
+    <link rel="canonical" href="https://ahnafalnafis.github.io" />
 
     <!-- Open graph: -->
     <meta property="og:url" content="https://ahnafalnafis.github.io" />
@@ -47,17 +48,23 @@
     <meta property="og:image:width" content="300" />
 
     <!-- Twitter Meta Tags -->
-    <meta property="twitter:url" content="https://ahnafalnafis.github.io" />
-    <meta property="twitter:domain" content="ahnafalnafis.github.io" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@ahnafalnafis" />
+    <meta name="twitter:site:id" content="@ahnafalnafis" />
     <meta name="twitter:creator" content="@ahnafalnafis" />
-    <meta property="twitter:site:id" content="@ahnafalnafis" />
-    <meta property="twitter:creator:id" content="@ahnafalnafis" />
-    <meta property="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator:id" content="@ahnafalnafis" />
+    <meta name="twitter:title" content="Ahnaf AL Nafis" />
+    <meta
+      name="twitter:description"
+      content="Hi, I'm Ahnaf and this is my portfolio website."
+    />
     <meta
       name="twitter:image"
       content="https://ahnafalnafis.github.io/assets/favicon.png"
     />
+
+    <!-- <meta property="twitter:url" content="https://ahnafalnafis.github.io" /> -->
+    <!-- <meta property="twitter:domain" content="ahnafalnafis.github.io" /> -->
   </head>
 
   <body>
@@ -90,24 +97,30 @@
     </header>
 
     <!-- Main content: -->
-    <main id="home">
-      <div class="introduction">
-        <div class="intro-text">
+    <main>
+      <!-- Content section: -->
+      <section id="introduction">
+        <div class="heading__paragraph">
           <p>
-            Welcome, I am
-            <span class="intro-title">Ahnaf Al Nafis,</span>
-            a web developer from Bangladesh and I like to create stuff&excl;
+            Welcome, I'm
+            <span class="section__heading">Ahnaf Al&nbsp;Nafis,</span>
+            or <b>Ahnaf</b> for short. I'm a passionate web developer from
+            Bangladesh and I love to create stuff&excl;
           </p>
         </div>
-        <div class="more-button-container">
-          <a class="button" href="/pages/about.html"
-            >More&nbsp;&nbsp;&RightArrow;</a
-          >
+
+        <!-- More button: -->
+        <div class="home__more-button">
+          <a class="button" href="/pages/about.html">
+            More&nbsp;&nbsp;&RightArrow;
+          </a>
         </div>
-      </div>
-      <div class="profile-photo">
+      </section>
+
+      <!-- Hero: -->
+      <section class="hero">
         <img src="/assets/dummy.png" alt="Ahnaf Al Nafis" />
-      </div>
+      </section>
     </main>
   </body>
 </html>

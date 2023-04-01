@@ -16,26 +16,12 @@
 @font-face {
   src: url(/fonts/Graphik/Graphik-Medium-Trial.otf);
   font-family: Graphik;
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  src: url(/fonts/Graphik/Graphik-MediumItalic-Trial.otf);
-  font-family: Graphik;
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  src: url(/fonts/Graphik/Graphik-Bold-Trial.otf);
-  font-family: Graphik;
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  src: url(/fonts/Graphik/Graphik-BoldItalic-Trial.otf);
+  src: url(/fonts/Graphik/Graphik-MediumItalic-Trial.otf);
   font-family: Graphik;
   font-weight: bold;
   font-style: italic;

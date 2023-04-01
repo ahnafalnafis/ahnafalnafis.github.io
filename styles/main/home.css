@@ -1,34 +1,23 @@
-#home {
+/* ---------- Introduction ---------- */
+#introduction {
   display: flex;
-}
-
-.introduction,
-.profile-photo {
-  flex: 1;
-  display: flex;
-}
-
-.introduction {
   flex-flow: column wrap;
   gap: 2rem;
 }
 
-.intro-text,
-.more-button-container {
+#introduction,
+#introduction > div,
+.hero {
   flex: 1;
 }
 
-.intro-text {
+.heading__paragraph {
   display: flex;
   align-items: flex-end;
 }
-.intro-title {
+
+.section__heading {
   display: block;
-  font-size: 4rem;
-  font-weight: 500;
 }
 
-.profile-photo {
-  align-items: center;
-  justify-content: center;
-}
+/* ---------- Hero ---------- */

@@ -21,6 +21,8 @@ a {
 main {
   padding: 0 max(5%, 1rem);
   font-size: 1.25rem;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .button {
@@ -36,4 +38,20 @@ main {
 .button:hover {
   background-color: var(--color-white);
   color: var(--color-black);
+}
+
+/* Titles those are under a section */
+.section__heading {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/* Maximum width for those paragraphs which are under a heading */
+.heading__paragraph {
+  max-width: 80%;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
 }

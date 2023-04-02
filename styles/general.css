@@ -48,10 +48,15 @@ main {
 
 /* Maximum width for those paragraphs which are under a heading */
 .heading__paragraph {
-  max-width: 80%;
+  /* max-width: 80%; */
 }
 
 .hero {
   display: flex;
   justify-content: center;
+}
+.hero img {
+  width: 70%;
+  border: none;
+  border-radius: 1rem;
 }

@@ -20,4 +20,11 @@
   display: block;
 }
 
+.home__more-button {
+  position: relative;
+}
+.home__more-button a {
+  position: absolute;
+}
+
 /* ---------- Hero ---------- */

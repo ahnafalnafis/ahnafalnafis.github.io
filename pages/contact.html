@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="/styles/fonts.css" />
     <link rel="stylesheet" href="/styles/general.css" />
     <link rel="stylesheet" href="/styles/header.css" />
-    <link rel="stylesheet" href="/styles/main/home.css" />
+    <link rel="stylesheet" href="/styles/main/contact.css" />
 
     <!-- Information: -->
-    <title>Ahnaf Al Nafis</title>
+    <title>Contact | Ahnaf Al Nafis</title>
     <meta name="author" content="Ahnaf Al Nafis" />
     <meta
       name="description"
@@ -66,7 +66,6 @@
     <!-- <meta property="twitter:url" content="https://ahnafalnafis.github.io" /> -->
     <!-- <meta property="twitter:domain" content="ahnafalnafis.github.io" /> -->
   </head>
-
   <body>
     <!-- Header section: -->
     <header>
@@ -102,27 +101,66 @@
     <!-- Main content: -->
     <main>
       <!-- Content section: -->
-      <section id="introduction">
-        <div class="heading__paragraph">
-          <p>
-            Welcome, I'm
-            <span class="section__heading">Ahnaf Al&nbsp;Nafis,</span>
-            or <b>Ahnaf</b> for short. I'm a passionate web developer from
-            Bangladesh and I enjoy creating stuff&excl;
-          </p>
+      <section id="contact">
+        <div class="section__heading">
+          <p>Get in touch</p>
         </div>
 
-        <!-- More button: -->
-        <div class="home__more-button">
-          <a class="button" href="/pages/about.html">
-            More&nbsp;&nbsp;&RightArrow;
-          </a>
+        <div class="social-links">
+          <ul>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#discord">Discord</a></li>
+            <li><a href="#github">GitHub</a></li>
+          </ul>
         </div>
       </section>
 
-      <!-- Hero: -->
-      <section class="hero">
-        <img src="/assets/images/ahnaf-non-bg.png" alt="Ahnaf Al Nafis" />
+      <!-- Form section: -->
+      <section id="form-section">
+        <form>
+          <ul>
+            <li>
+              <!-- <label for="first-name">First name:</label> -->
+              <input
+                type="text"
+                id="first-name"
+                name="user_first_name"
+                placeholder="First name"
+              />
+            </li>
+            <li>
+              <!-- <label for="last-name">Last name:</label> -->
+              <input
+                type="text"
+                id="last-name"
+                name="user_last_name"
+                placeholder="Last name"
+              />
+            </li>
+            <li>
+              <!-- <label for="email">Email address:</label> -->
+              <input
+                type="email"
+                id="email"
+                name="user_email"
+                placeholder="Email address"
+              />
+            </li>
+            <li>
+              <!-- <label for="message">Message:</label> -->
+              <textarea
+                name="user_message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+            </li>
+            <li>
+              <button type="submit">Send your message</button>
+            </li>
+          </ul>
+        </form>
       </section>
     </main>
   </body>

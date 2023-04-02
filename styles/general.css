@@ -25,6 +25,7 @@ main {
   flex-flow: row wrap;
 }
 
+button,
 .button {
   border: 2px solid var(--color-black);
   border-radius: 0.25rem;
@@ -34,7 +35,10 @@ main {
 
   color: var(--color-white);
   background-color: var(--color-black);
+
+  cursor: pointer;
 }
+button:hover,
 .button:hover {
   background-color: var(--color-white);
   color: var(--color-black);

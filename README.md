@@ -1,4 +1,4 @@
-# THIS PROJECT IS NO LONGER BEING MAINTAINED visit: ahnafalnafis.github.io/new
+# THIS PROJECT IS NO LONGER BEING MAINTAINED visit: ahnafalnafis.github.io/new-portfolio
 
 # My portfolio
 

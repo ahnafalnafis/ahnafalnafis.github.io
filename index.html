@@ -11,9 +11,7 @@
     />
 
     <!-- Style sheets: -->
-    <link rel="stylesheet" href="/styles/fonts.css" />
-    <link rel="stylesheet" href="/styles/general.css" />
-    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
 
     <!-- Information: -->
     <title>Ahnaf Al Nafis</title>
@@ -74,6 +72,7 @@
         <div id="logo">
           <a href="/">
             <img
+              class="desktop"
               src="/assets/icons/favicon/favicon-64x63-transparent.png"
               alt="Logo"
             />
@@ -83,16 +82,18 @@
         <!-- Navigation (Left): -->
         <nav class="left">
           <ul>
-            <li><a href="/pages/about.html">About</a></li>
-            <li><a href="/pages/experience.html">Experience</a></li>
-            <li><a href="/pages/work.html">Work</a></li>
+            <li class="mobile"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#work">Work</a></li>
+            <li class="mobile"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
         <!-- Navigation (Right): -->
-        <nav class="right">
+        <nav class="right desktop">
           <ul>
-            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>

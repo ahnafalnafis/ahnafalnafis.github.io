@@ -1,0 +1,28 @@
+/* ---------- Graphik font ---------- */
+@font-face {
+  src: url(/fonts/Graphik/Graphik-Regular.otf);
+  font-family: Graphik;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  src: url(/fonts/Graphik/Graphik-Regular-Italic.otf);
+  font-family: Graphik;
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  src: url(/fonts/Graphik/Graphik-Medium.otf);
+  font-family: Graphik;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  src: url(/fonts/Graphik/Graphik-Medium-Italic.otf);
+  font-family: Graphik;
+  font-weight: bold;
+  font-style: italic;
+}

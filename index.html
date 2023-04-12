@@ -11,10 +11,7 @@
     />
 
     <!-- Style sheets: -->
-    <link rel="stylesheet" href="/styles/fonts.css" />
-    <link rel="stylesheet" href="/styles/general.css" />
-    <link rel="stylesheet" href="/styles/header.css" />
-    <link rel="stylesheet" href="/styles/main/home.css" />
+    
 
     <!-- Information: -->
     <title>Ahnaf Al Nafis</title>
@@ -25,7 +22,7 @@
     />
     <link
       rel="shortcut icon"
-      href="/assets/images/favicon/favicon-64x63.png"
+      href="/assets/icons/favicon/favicon-64x63.png"
       type="image/x-icon"
     />
     <meta name="url" content="https://ahnafalnafis.github.io" />
@@ -42,7 +39,7 @@
     />
     <meta
       property="og:image"
-      content="https://ahnafalnafis.github.io/assets/images/ahnaf.jpeg"
+      content="https://ahnafalnafis.github.io/assets/images/ahnaf-bnw.jpeg"
     />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="200" />
@@ -60,11 +57,12 @@
     />
     <meta
       name="twitter:image"
-      content="https://ahnafalnafis.github.io/assets/images/ahnaf.jpeg"
+      content="https://ahnafalnafis.github.io/assets/images/ahnaf-bnw.jpeg"
     />
 
     <!-- <meta property="twitter:url" content="https://ahnafalnafis.github.io" /> -->
     <!-- <meta property="twitter:domain" content="ahnafalnafis.github.io" /> -->
+    <link rel="stylesheet" href="/assets/index-95395e49.css">
   </head>
 
   <body>
@@ -75,7 +73,8 @@
         <div id="logo">
           <a href="/">
             <img
-              src="/assets/images/favicon/favicon-64x63-transparent.png"
+              class="desktop"
+              src="/assets/icons/favicon/favicon-64x63-transparent.png"
               alt="Logo"
             />
           </a>
@@ -84,16 +83,18 @@
         <!-- Navigation (Left): -->
         <nav class="left">
           <ul>
-            <li><a href="/pages/about.html">About</a></li>
-            <li><a href="/pages/experience.html">Experience</a></li>
-            <li><a href="/pages/work.html">Work</a></li>
+            <li class="mobile"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#work">Work</a></li>
+            <li class="mobile"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
         <!-- Navigation (Right): -->
-        <nav class="right">
+        <nav class="right desktop">
           <ul>
-            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -103,26 +104,14 @@
     <main>
       <!-- Content section: -->
       <section id="introduction">
-        <div class="heading__paragraph">
+        <div>
           <p>
-            Welcome, I'm
-            <span class="section__heading">Ahnaf Al&nbsp;Nafis,</span>
-            or <b>Ahnaf</b> for short. I'm a passionate web developer from
-            Bangladesh and I enjoy creating stuff&excl;
+            Welcome, I am
+            <span class="heading">Ahnaf Al&nbsp;Nafis.</span>
+            Highly motivated and very passionate web developer from Bangladesh
+            and I enjoy creating stuff&excl;
           </p>
         </div>
-
-        <!-- More button: -->
-        <div class="home__more-button">
-          <a class="button" href="/pages/about.html">
-            More&nbsp;&nbsp;&RightArrow;
-          </a>
-        </div>
-      </section>
-
-      <!-- Hero: -->
-      <section class="hero">
-        <img src="/assets/images/ahnaf-non-bg.png" alt="Ahnaf Al Nafis" />
       </section>
     </main>
   </body>

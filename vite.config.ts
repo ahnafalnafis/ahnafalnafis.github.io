@@ -1,4 +1,9 @@
 import { defineConfig } from "vite";
+
+// React:
+import react from "@vitejs/plugin-react-swc";
+
+// PostCSS:
 import autoprefixer from "autoprefixer";
 import cssnanoPlugin from "cssnano";
 import pluginOptions from "postcss-preset-env";
@@ -12,6 +17,8 @@ export default defineConfig({
   build: {
     outDir: "public",
   },
+  plugins: [react()],
+
   css: {
     postcss: {
       plugins: [

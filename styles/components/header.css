@@ -1,0 +1,27 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: var(--c-white);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  /* margin: 0 auto; */
+  padding: 1rem 0;
+}
